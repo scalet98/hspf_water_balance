@@ -3,7 +3,7 @@
 .. _hspf_water_balance_documentation:
 
 hspf_water_balance
-=========
+==================
 
 This is the home page for hspf_water_balance.  hspf_water_balance is a command line program and
 Python library to create a water balance for HSPF models.

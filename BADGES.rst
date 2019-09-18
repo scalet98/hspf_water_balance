@@ -11,7 +11,7 @@
     :target: https://pypi.python.org/pypi/hspf_water_balance
 
 .. image:: http://img.shields.io/badge/license-BSD-lightgrey.svg
-    :alt: hspf_water_balance license
+    :alt: BSD-3 clause license
     :target: https://pypi.python.org/pypi/hspf_water_balance/
 
 .. image:: http://img.shields.io/pypi/dd/hspf_water_balance.svg
