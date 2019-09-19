@@ -64,11 +64,12 @@ DataFrame and is supplied to the function via the 'input_ts' keyword.
 Simply import hspf_water_balance::
 
     from hspf_water_balance import hspf_water_balance
+    from tstoolbox import tstoolbox
 
     # Then you could call the functions
     ntsd = hspf_water_balance.summary(method='linear', input_ts='tests/test_fill_01.csv')
 
     # Once you have a PANDAS DataFrame you can use that as input to other 
     # hspf_water_balance functions.
-    ntsd = hspf_water_balance.aggregate(statistic='mean', agg_interval='daily', input_ts=ntsd)
+    ntsd = tstoolbox.aggregate(statistic='mean', agg_interval='daily', input_ts=ntsd)
 
